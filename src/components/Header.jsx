@@ -4,8 +4,8 @@ import Contacts from "./Contacts";
 
 const Header = () => {
   return (
-    <div className="sticky inset-x-0 top-0 h-16 bg-cyan-800 flex justify-around text-cyan-400">
-      <h1 className="flex gap-4">
+    <div className="sticky inset-x-0 top-0 h-16 bg-cyan-800 flex justify-around text-cyan-400 items-center">
+      <h1 className="flex gap-4 items-center">
         <img
           src={require("/home/rafael/Documents/portfolio/src/images/portfolio_picture.jpg")}
           alt=""
