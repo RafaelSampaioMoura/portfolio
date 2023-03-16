@@ -2,7 +2,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div>
+    <div className="bg-cyan-400 text-white h-full">
       <p>
         Natural de Juazeiro do Norte (CE), cursei Direito por 4 anos no Centro
         Universitário Paraíso antes de seguir minha verdadeira paixão na área de
