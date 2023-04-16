@@ -10,7 +10,7 @@ function MainPage() {
       <Main />
       <Footer />
     </div>
-  );
+  )
 }
 
 export default MainPage;
