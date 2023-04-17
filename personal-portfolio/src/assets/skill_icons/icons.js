@@ -44,6 +44,24 @@ const redux_info = {
   mainpage: "https://redux.js.org/",
 };
 
+const mysql_info = {
+    name: "MySQL",
+    icon: mysql,
+    mainpage: "https://www.mysql.com/",
+}
+
+const docker_info = {
+    name: "Docker",
+    icon: docker,
+    mainpage: "https://www.docker.com/"
+}
+
+const nodejs_info = {
+    name: "NodeJS",
+    icon: nodejs,
+    mainpage: "https://nodejs.org/en",
+}
+
 export {
   css3_info,
   html_5_info,
@@ -51,7 +69,7 @@ export {
   react_info,
   redux_info,
   jest_info,
-  mysql,
-  docker,
-  nodejs,
+  mysql_info,
+  docker_info,
+  nodejs_info,
 };

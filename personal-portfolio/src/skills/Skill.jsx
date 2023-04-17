@@ -6,6 +6,9 @@ import {
   react_info,
   redux_info,
   jest_info,
+  docker_info,
+  mysql_info,
+  nodejs_info,
 } from "../assets/skill_icons/icons";
 
 function Skill() {
@@ -16,6 +19,9 @@ function Skill() {
     react_info,
     redux_info,
     jest_info,
+    nodejs_info,
+    mysql_info,
+    docker_info,
   ];
   return (
     <div className="skill_page_main">
@@ -24,7 +30,7 @@ function Skill() {
         {icons_array.map((e) => {
           return (
             <a href={e.mainpage} className="skill_icon">
-              <img src={e.icon} className="skill_icon_img"/>
+              <img src={e.icon} className="skill_icon_img" />
               {e.name}
             </a>
           );
