@@ -2,12 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
+import MainPage from "./main_page/MainPage";
 import "./index.css";
+import Skill from "./skills/Skill";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <MainPage />,
+  },
+  {
+    path: "/skills",
+    element: <Skill />,
   },
 ]);
 
