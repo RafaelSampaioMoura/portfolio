@@ -18,7 +18,7 @@ function Skill() {
     jest_info,
   ];
   return (
-    <div>
+    <div className="skill_page_main">
       <h1>Skills & Stacks</h1>
       <div className="skillIconsDeck">
         {icons_array.map((e) => {
