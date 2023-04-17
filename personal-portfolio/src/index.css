@@ -9,7 +9,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
   margin: 3% 7.5% 0 7.5%;
+  gap: 10%;
 }
 
 .header {
@@ -30,7 +32,7 @@ body {
   height: 76px;
   width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 5%;
   font-size: 14px;
@@ -38,4 +40,32 @@ body {
 
 .link {
   font-weight: 600;
+}
+
+.main {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.intro {
+  width: 50%;
+}
+
+.name {
+  font-size: 32px;
+}
+
+.bullshit {
+  font-size: 26px;
+}
+
+.photo {
+  height: 100%;
+  margin: 20px 0 20px 0;
+  border-radius: 4px;
+  border: 1px solid hsla(0, 0%, 0%, 0.253);
 }
