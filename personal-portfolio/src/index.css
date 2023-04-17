@@ -108,13 +108,17 @@ a, a:visited, a:hover, a:active {
 
 .skill_icon {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  gap: 10px;
   align-items: center;
   font-size: 24px;
   text-decoration: none;
+  width: 240px;
+  height: 120px;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.151);
 }
 
 .skill_icon_img {
-  height: 100px;
+  height: 50px;
   width: auto;
 }
