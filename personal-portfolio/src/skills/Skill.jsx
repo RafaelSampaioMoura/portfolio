@@ -25,7 +25,17 @@ function Skill() {
   ];
   return (
     <div className="skill_page_main">
-      <h1>Skills & Stacks</h1>
+      <div className="header">
+        <h1>Skills & Stacks</h1>
+        <div className="links">
+          <p className="link">Home</p>
+          <p className="link">Services</p>
+          <p className="link">Skills</p>
+          <p className="link">Projects</p>
+          <p className="link">Contact</p>
+        </div>
+      </div>
+
       <div className="skillIconsDeck">
         {icons_array.map((e) => {
           return (

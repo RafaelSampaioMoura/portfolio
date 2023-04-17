@@ -96,14 +96,17 @@ a, a:visited, a:hover, a:active {
   width: 25%;
 }
 
-.skill_page_main {
-  width: 90%;
-}
-
 .skillIconsDeck {
   display: flex;
   gap: 25px;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill_page_main {
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0 12% 0 12%;
 }
 
 .skill_icon {
