@@ -4,7 +4,7 @@ import r_letter from "../assets/download.svg";
 function Header() {
   return (
     <div className="header">
-      <img src={r_letter} className="icon"></img>
+      <img src={r_letter} className="logo"></img>
       <div className="links">
         <p className="link">Home</p>
         <p className="link">Services</p>
