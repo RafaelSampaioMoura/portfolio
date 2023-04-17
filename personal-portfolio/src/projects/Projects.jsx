@@ -1,8 +1,12 @@
 import React from "react";
+import ProjectDeck from "./ProjectDeck";
 
 function Projects() {
-  return <div>
-  </div>;
+  return (
+    <>
+      <ProjectDeck />
+    </>
+  );
 }
 
 export default Projects;
