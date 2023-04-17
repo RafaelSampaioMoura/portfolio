@@ -91,3 +91,19 @@ body {
   text-align: right;
   width: 25%;
 }
+
+.skillIconsDeck {
+  display: flex;
+}
+
+.skill_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill_icon_img {
+  height: 100px;
+  width: auto;
+}
