@@ -4,10 +4,10 @@ import MailForm from "./MailForm";
 
 function Contact() {
   return (
-    <>
+    <div className="contact-container">
       <ContactsBox />
       <MailForm />
-    </>
+    </div>
   );
 }
 

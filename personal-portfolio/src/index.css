@@ -91,3 +91,32 @@ body {
   text-align: right;
   width: 25%;
 }
+
+.contacts {
+  display: flex;
+  justify-self: end;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.social-media {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%; */
+}
+
+.mail-form {
+  display: flex;
+  flex-direction: column;
+}
