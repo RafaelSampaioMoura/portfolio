@@ -129,7 +129,6 @@ input, textarea {
   border: none;
   border-bottom: #f8f8f8 solid 1px;
   width: 80%;
-  padding-left: 6px;
 }
 
 .mail-form {
@@ -137,8 +136,26 @@ input, textarea {
   flex-direction: column;
   background-color: #212121;
   color: #f8f8f8;
-  width: 50%;
-  padding: 10px;
+  width: 600px;
+  padding: 20px 60px 20px 60px;
   font-weight: 800;
   border-radius: 6px;
+}
+
+.submit-btn {
+  align-self: flex-end;
+  width: 80px;
+  font-size: 18px;
+  background-color: #f8f8f8;
+  border: none;
+  transition: 0.5s;
+  margin: 8px 8px 0 0;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #212121;
+  color: #f8f8f8;
+  transition: 0.5s;
 }
