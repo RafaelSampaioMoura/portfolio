@@ -107,6 +107,7 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+  margin-top: 40px;
 }
 
 .contact-box {
@@ -122,12 +123,22 @@ body {
   width: 50%; */
 }
 
+input, textarea {
+  background-color: #212121;
+  color: #f8f8f8;
+  border: none;
+  border-bottom: #f8f8f8 solid 1px;
+  width: 80%;
+  padding-left: 6px;
+}
+
 .mail-form {
   display: flex;
   flex-direction: column;
   background-color: #212121;
   color: #f8f8f8;
-  width: 40%;
+  width: 50%;
   padding: 10px;
   font-weight: 800;
+  border-radius: 6px;
 }
