@@ -18,10 +18,18 @@ function ContactsBox() {
         <div className="mail-contact">rafaelsm123@outlook.com</div>
         <div className="social-media">
           <p>Follow Me:</p>
-          <img src={linkedin}></img>
-          <img src={github}></img>
-          <img src={discord}></img>
-          <img src={whatsapp}></img>
+          <a href="https://www.linkedin.com/in/rafael-sampaio-moura/">
+            <img src={linkedin}></img>
+          </a>
+          <a href="https://github.com/RafaelSampaioMoura">
+            <img src={github}></img>
+          </a>
+          <a href="https://discordapp.com/users/979053270339293224">
+            <img src={discord}></img>
+          </a>
+          <a href="https://wa.me/558888243188">
+            <img src={whatsapp}></img>
+          </a>
         </div>
       </div>
     </div>
