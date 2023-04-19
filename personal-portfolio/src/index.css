@@ -1,6 +1,7 @@
 body {
   font-family: "Rubik", sans-serif;
   background-color: #f8f8f8;
+  color: #212121;
   margin: 0;
 }
 
@@ -124,4 +125,9 @@ body {
 .mail-form {
   display: flex;
   flex-direction: column;
+  background-color: #212121;
+  color: #f8f8f8;
+  width: 40%;
+  padding: 10px;
+  font-weight: 800;
 }

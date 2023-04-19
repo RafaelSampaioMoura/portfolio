@@ -20,7 +20,7 @@ function MailForm() {
         Your message: <br />
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
       </label>
-      <button></button>
+      <button>Submit</button>
     </form>
   );
 }
